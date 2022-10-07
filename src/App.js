@@ -2,9 +2,9 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import ContentInfo from './components/ContentInfo';
 // Styles
 import GlobalStyles from './styles/GlobalStyles';
+import CryptoDetails from './components/CryptoDetails';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <section className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Content" element={<ContentInfo />} />
+            <Route path="/:id" element={<CryptoDetails />} />
           </Routes>
         </section>
       </div>

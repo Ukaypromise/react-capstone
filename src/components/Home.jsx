@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import CryptoCoins from "./Cards";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="card-container">
+      <CryptoCoins />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
