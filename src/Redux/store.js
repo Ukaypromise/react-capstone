@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import CryptoReducer, {
   fetchData,
-} from '../features/cryptoSlice'; // eslint-disable-line
+} from '../features/getCrypto/CryptoSlice'; // eslint-disable-line
 
 const store = configureStore({
   reducer: {
