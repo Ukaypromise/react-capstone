@@ -1,7 +1,14 @@
+/* eslint-disable */
 import React from "react";
+import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { InfoContainer, Container, InfoWrapper, Title } from "../styles/Info.style";
+import {
+  InfoContainer,
+  Container,
+  InfoWrapper,
+  Title,
+} from "../styles/Info.style";
 
 const CryptoDetails = () => {
   const { id } = useParams();
@@ -12,14 +19,15 @@ const CryptoDetails = () => {
   return (
     <InfoContainer>
       {status === "pending" ? (
-        <div >
-          Loading....
-        </div>
+        <div>Loading....</div>
       ) : (
         cryptoCurrency.map((coin) => {
           if (coin.id === id) {
             return (
               <Container key={coin.id}>
+                <Link className="back" to="/">
+                  <p className="nav-back">← Back</p>
+                </Link>
                 <div className="main">
                   <div className="submain">
                     <div>
@@ -30,7 +38,7 @@ const CryptoDetails = () => {
                   </div>
                   <div>
                     <h2>Crypto Coin: {coin.name}</h2>
-                    Ranked at: Number{coin.rank}
+                    <p>Ranked at: Number{coin.rank}</p>
                   </div>
                 </div>
 

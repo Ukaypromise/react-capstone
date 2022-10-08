@@ -31,6 +31,7 @@ You just need a good computer and a code editor.
 - LinkedIn: [@promiseuka](https://www.linkedin.com/in/promiseuka/)
 
 ## 🤝 Contributing
+https://www.behance.net/sakwadesignstudio
 
 Contributions, issues, and feature requests are welcome!
 
@@ -39,6 +40,12 @@ Feel free to check the [issues page](https://github.com/wadaudzai/math-magicians
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration for this design was from [Nelson Sakwa ](https://www.behance.net/sakwadesignstudio)
+- etc
 
 ## 📝 License
 

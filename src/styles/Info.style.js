@@ -16,6 +16,16 @@ export const Container = styled.div`
     margin: auto;
     margin-bottom: 40px;
   }
+  .back {
+    text-decoration: none;
+    padding: 10px;
+    margin: 1rem 2rem;
+  }
+  .nav-back {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+  }
 `;
 
 export const InfoWrapper = styled.div`
@@ -30,5 +40,5 @@ export const Title = styled.div`
   justify-content: space-between;
   width: 85%;
   margin: auto;
-  padding: 10px;  
+  padding: 10px;
 `;
