@@ -10,7 +10,7 @@
 - Webpack, Babel, React Testing Library
 
 ## Live Demo
-- GitHub: [@Ukaypromise](https://github.com/Ukaypromise)
+- Demo            : [Coming Soon](https://github.com/Ukaypromise)
 ## Live Video
 - GitHub: [@Ukaypromise](https://github.com/Ukaypromise)
 ## Getting Started
