@@ -8,6 +8,7 @@
 - Javascript
 - React, Redux
 - Webpack, Babel, React Testing Library
+- Styled Components
 
 ## Live Demo
 - Demo: [View Here!!!](https://www.loom.com/share/1bb909ddd99a4143b5187c3129c3ab04)
