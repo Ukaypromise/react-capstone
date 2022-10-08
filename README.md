@@ -11,7 +11,7 @@
 - Styled Components
 
 ## Live Demo
-- Demo: [View Here!!!](https://www.loom.com/share/1bb909ddd99a4143b5187c3129c3ab04)
+- Demo: [Not Yet Ready!!!](https://www.loom.com/share/1bb909ddd99a4143b5187c3129c3ab04)
 ## Live Video
 - Video: [View Here!!!](https://www.loom.com/share/1bb909ddd99a4143b5187c3129c3ab04)
 ## Getting Started
