@@ -11,7 +11,7 @@ export const fetchData = createAsyncThunk(
   },
 );
 
-export const CryptoSlice = createSlice({
+export const cryptoSlice = createSlice({
   name: 'cryptoCurrency',
   initialState: { cryptoCurrency: [], status: 'idle' },
 
@@ -28,4 +28,4 @@ export const CryptoSlice = createSlice({
   },
 });
 
-export default CryptoSlice.reducer;
+export default cryptoSlice.reducer;
