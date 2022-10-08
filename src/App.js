@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
 // Styles
 import GlobalStyles from './styles/GlobalStyles';
-import CryptoDetails from './components/CryptoDetails';
+import CryptoDetails from './components/Details/CryptoDetails';
 
 function App() {
   return (

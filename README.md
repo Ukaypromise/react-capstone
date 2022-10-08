@@ -1,4 +1,4 @@
-# SpaceX
+# Crypto Master
 
 > This is a capstone for the Microverse Module 3 (React-Redux) project. React, Redux/Toolkit, and React Linters were used in its construction to enforce best practices for react code. The Project aims to retrieve API data, display cryptocurrency, and query API endpoints for data related to market listings for coins.
 

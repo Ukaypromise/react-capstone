@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import Home from '../components/Home';
-import CryptoDetails from '../components/CryptoDetails';
+import Navbar from '../components/Navbar/Navbar';
+import Home from '../components/Home/Home';
+import CryptoDetails from '../components/Details/CryptoDetails';
 import store from '../Redux/store';
 
 describe('Testing for all components', () => {

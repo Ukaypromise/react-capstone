@@ -8,7 +8,7 @@ import {
   Container,
   InfoWrapper,
   Title,
-} from "../styles/Info.style";
+} from "../../styles/Info.style";
 
 const CryptoDetails = () => {
   const { id } = useParams();
