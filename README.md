@@ -11,7 +11,9 @@
 - Styled Components
 
 ## Live Demo
-- Demo: [Available Here!!!](https://6341fe57ccdf94192b341a50--endearing-bonbon-930883.netlify.app/)
+- Demo 1: [Available Here!!!](https://6341fe57ccdf94192b341a50--endearing-bonbon-930883.netlify.app/)
+- Demo 2: [Available Here!!!](https://cozy-sorbet-53043b.netlify.app/)
+
 ## Live Video
 - Video: [View Here!!!](https://www.loom.com/share/1bb909ddd99a4143b5187c3129c3ab04)
 ## Getting Started
