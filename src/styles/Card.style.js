@@ -4,7 +4,6 @@ export const Container = styled.div``;
 
 export const Header = styled.div`
   padding: 1rem 2rem;
-  background-color: #f5f5f5;
 `;
 
 export const LeadInfo = styled.div`
@@ -18,7 +17,6 @@ export const LeadInfo = styled.div`
     align-items: center;
     line-height: 1.5;
     padding: 3rem 2rem;
-    background-color: orange;
     color: #fff;
   }
 
