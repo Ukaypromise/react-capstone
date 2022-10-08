@@ -1,4 +1,4 @@
-import Reducer, { fetchData } from '../features/CryptoSlice';
+import Reducer, { fetchData } from '../features/CryptoSlice.js';
 
 const payload = [
   {

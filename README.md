@@ -10,9 +10,9 @@
 - Webpack, Babel, React Testing Library
 
 ## Live Demo
-- Demo            : [Coming Soon](https://github.com/Ukaypromise)
+- Demo: [View Here!!!](https://www.loom.com/share/1bb909ddd99a4143b5187c3129c3ab04)
 ## Live Video
-- GitHub: [@Ukaypromise](https://github.com/Ukaypromise)
+- Video: [View Here!!!](https://www.loom.com/share/1bb909ddd99a4143b5187c3129c3ab04)
 ## Getting Started
 
 To start with this project. First clone this project. You have to run npm install. When you want to build the project run npm build and to start the project and run it on a browser run npm start. 
