@@ -20,8 +20,8 @@ const CryptoDetails = () => {
           if (coin.id === id) {
             return (
               <Container key={coin.id}>
-                <div >
-                  <div>
+                <div className="main">
+                  <div className="submain">
                     <div>
                       <p>
                         <img src={coin.icon} alt="Coin Icon" />
@@ -29,73 +29,73 @@ const CryptoDetails = () => {
                     </div>
                   </div>
                   <div>
-                    <h2>coin: {coin.name}</h2>
-                    Ranked at: #{coin.rank}
+                    <h2>Crypto Coin: {coin.name}</h2>
+                    Ranked at: Number{coin.rank}
                   </div>
                 </div>
 
                 <InfoWrapper>
-                  <Title>
+                  <Title className="details">
                     <p>Coin name</p>
                     <p>{coin.name}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Coin symbol</p>
                     <p>{coin.symbol}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Ranking</p>
                     <p>{coin.rank}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Coin Price</p>
                     <p>{coin.price}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Coin volume</p>
                     <p>{coin.volum}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Market cap</p>
                     <p>{coin.marketCap}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Price change day</p>
                     <p>{coin.priceChange1d}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Price change Hour</p>
                     <p>{coin.priceChange1h}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Price change Week</p>
                     <p>{coin.priceChange1w}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Coin total supply</p>
                     <p>{coin.totalSupply}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Coin availability Supply</p>
                     <p>{coin.availableSupply}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Twitter link</p>
                     <p>{coin.twitterUrl}</p>
                   </Title>
 
-                  <Title>
+                  <Title className="details">
                     <p>Website link</p>
                     <p>{coin.websiteUrl}</p>
                   </Title>

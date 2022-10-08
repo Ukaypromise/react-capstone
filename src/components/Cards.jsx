@@ -36,38 +36,19 @@ const iD = ["bitcoin", "ethereum", "tether", "usd-coin", "binance-coin"];
     <Container>
       <Header>
         <LeadInfo>
-          <p>Market cap</p>
           {cryptoCurrency.map((btc) => {
-            if (btc.id === iD[3]) {
+            if (btc.id === "ethereum") {
               return (
-                <div key={btc.id}>
-                  <h2>{btc.marketCap}</h2>
+                <div key={btc.id} className="contents">
                   <div>
+                    <img src={btc.icon} />
                     <h2>{btc.name} Price</h2>
-                    <p>{btc.availableSupply} Available Supply</p>
-                    <p>{btc.totalSupply} Total Supply</p>
-                    <p>{btc.priceChange1h} Price Change Per Hour</p>
                     <p>${btc.price}</p>
                   </div>
-                </div>
-              );
-            }
-            return null;
-          })}
-        </LeadInfo>
-        <LeadInfo>
-          <p>Market cap</p>
-          {cryptoCurrency.map((btc) => {
-            if (btc.id === iD[0]) {
-              return (
-                <div key={btc.id}>
-                  <h2>{btc.marketCap}</h2>
-                  <div>
-                    <h2>{btc.name} Price</h2>
-                    <p>{btc.availableSupply} Available Supply</p>
-                    <p>{btc.totalSupply} Total Supply</p>
-                    <p>{btc.priceChange1h} Price Change Per Hour</p>
-                    <p>${btc.price}</p>
+                  <div className="contents1">
+                    <p>Available Supply: {btc.availableSupply} </p>
+                    <p>Total Supply: {btc.totalSupply} </p>
+                    <p>Price Change Per Hour: {btc.priceChange1h} </p>
                   </div>
                 </div>
               );
@@ -100,12 +81,14 @@ const iD = ["bitcoin", "ethereum", "tether", "usd-coin", "binance-coin"];
                 </Icon>
                 <CoinInfo>
                   <p>Number{coin.rank}</p>
-                  <h3>{coin.name}</h3>
-                  <h4>{coin.symbol}</h4>
+                  <h2>{coin.name}</h2>
+                  <p>{coin.symbol}</p>
                   <p>${coin.price.toFixed(2)}</p>
                 </CoinInfo>
-                <Link to={`${coin.id}`}>
-                  <Button>See More</Button>
+                <Link to={`${coin.id}`} className='see-more'>
+                  <Button>
+                    <p>➡</p>
+                  </Button>
                 </Link>
               </CoinItem>
             ))

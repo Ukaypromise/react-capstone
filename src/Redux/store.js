@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import CryptoReducer, {
   fetchData,
-} from '../features/cryptoSlice';
+} from '../features/CryptoSlice';
 
 const store = configureStore({
   reducer: {

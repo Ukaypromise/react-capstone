@@ -1,12 +1,28 @@
 import styled from 'styled-components';
 
-export const NavBarContainer = styled.div`
+const NavBarContainer = styled.div`
   display: flex;
-  width: 700px;
-  margin: auto;
   justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: grey;
+  color: steelblue;
+
+  .notify{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+  }
 
   .navLink {
     text-decoration: none;
   }
 `;
+
+export default NavBarContainer;
