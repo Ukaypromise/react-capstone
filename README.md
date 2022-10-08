@@ -1,62 +1,43 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Crypto Master
 
-# Project Name
-
-> Description the project.
+> This is a capstone for the Microverse Module 3 (React-Redux) project. React, Redux/Toolkit, and React Linters were used in its construction to enforce best practices for react code. The Project aims to retrieve API data, display cryptocurrency, and query API endpoints for data related to market listings for coins.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Javascript
+- React, Redux
+- Webpack, Babel, React Testing Library
+- Styled Components
 
-## Live Demo (if available)
+## Live Demo
+- Demo 1: [Available Here!!!](https://6341fe57ccdf94192b341a50--endearing-bonbon-930883.netlify.app/)
+- Demo 2: [Available Here!!!](https://cozy-sorbet-53043b.netlify.app/)
 
-[Live Demo Link](https://livedemo.com)
-
-
+## Live Video
+- Video: [View Here!!!](https://www.loom.com/share/1bb909ddd99a4143b5187c3129c3ab04)
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To start with this project. First clone this project. You have to run npm install. When you want to build the project run npm build and to start the project and run it on a browser run npm start. 
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+You just need a good computer and a code editor. 
 
 ## Authors
 
-👤 **Author1**
+👤 ** Promise Uka **
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Ukaypromise](https://github.com/Ukaypromise)
+- Twitter: [@PromiseUkay](https://twitter.com/PromiseUkay)
+- LinkedIn: [@promiseuka](https://www.linkedin.com/in/promiseuka/)
 
 ## 🤝 Contributing
+https://www.behance.net/sakwadesignstudio
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/wadaudzai/math-magicians/issues).
 
 ## Show your support
 
@@ -65,7 +46,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
+- Inspiration for this design was from [Nelson Sakwa ](https://www.behance.net/sakwadesignstudio)
 - etc
 
 ## 📝 License
