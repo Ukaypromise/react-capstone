@@ -1,4 +1,4 @@
-import Reducer, { fetchData } from '../features/CryptoSlice.js';
+import Reducer, { fetchData } from '../features/CryptoSlice';// eslint-disable-line
 
 const payload = [
   {
